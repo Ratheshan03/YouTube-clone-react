@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.burger__icon {
+  color: #606060;
+}
+
+.header__logo {
+  height: 30px;
+  width: 100px;
+  object-fit: contain;
+  margin-left: 8px;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 35px !important;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.header__input > input {
+  flex: 1;
+  width: 38%;
+  height: 32px;
+  border: none;
+}
+
+.header__inputButton {
+  width: 55px !important;
+  height: 32px !important;
+  background-color: #fafafa;
+  color: gray;
+  border-left: 1px solid lightgray;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  overflow: hidden;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  color: #606060;
+  cursor: pointer;
+}
+
+.header__icon {
+  margin-right: 15px;
+  width: 26px !important;
+  height: 35px !important;
+}
